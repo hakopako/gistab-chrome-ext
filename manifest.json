@@ -2,7 +2,7 @@
   "name": "Gistab",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "file list to tabs for gist page.",
+  "description": "file list to tabs for gist pages.",
   "homepage_url": "https://github.com/hakopako/gistab-chrome-ext",
   "content_scripts": [
     {
