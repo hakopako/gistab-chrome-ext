@@ -5,6 +5,10 @@ var Gistab = {
 		$frame.className = 'gistab';
 		$frame.innerHTML = "<div id='gistabmenu'></div><div id='gistabcontent'></div>";
     $item.insertBefore($frame, $item.firstChild);
+		$description = document.querySelector("div[itemprop='about']");
+		if( $description !== null) {
+			$item.insertBefore($description, $item.firstChild);
+		}
 
 		return $frame;
 	},
@@ -74,6 +78,7 @@ var Gistab = {
 			$a.style.textDecoration = 'none';
 			$a.style.background = '#f7f7f7';
 			$a.style.borderTop = '1px solid #d8d8d8';
+			$a.style.marginTop = '12px';
 		});
 
 		$files = document.getElementById('gistabcontent').getElementsByClassName('file');

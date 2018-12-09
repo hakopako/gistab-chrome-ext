@@ -1,6 +1,6 @@
 {
   "name": "Gistab",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "manifest_version": 2,
   "description": "Switch gist pages to tab style.",
   "homepage_url": "https://web.hakopako.net/gistab-chrome-ext/",
