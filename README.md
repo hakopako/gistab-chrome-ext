@@ -1,2 +1,2 @@
 # gistab-chrome-ext
-file list to tabs for gist page.
+Switch gist pages to tab style.

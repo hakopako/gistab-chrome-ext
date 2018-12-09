@@ -1,13 +1,13 @@
 {
   "name": "Gistab",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "manifest_version": 2,
-  "description": "file list to tabs for gist pages.",
-  "homepage_url": "https://github.com/hakopako/gistab-chrome-ext",
+  "description": "Switch gist pages to tab style.",
+  "homepage_url": "https://web.hakopako.net/gistab-chrome-ext/",
   "content_scripts": [
     {
       "matches": ["https://gist.github.com/*"],
-      "js": ["jquery-2.1.4.min.js", "inject.js"],
+      "js": ["gistab-min.js"],
       "run_at": "document_idle"
     }
   ]
